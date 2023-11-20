@@ -7,7 +7,8 @@ img {
   max-width: 40%;
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin-top: 100px;
+  margin-left: 113px;
 }
 h1 {
   text-align: center;
@@ -121,4 +122,32 @@ td {
 #splash.fade {
   opacity: 0;
   pointer-events: none;
+}
+<style > h1,
+h2,
+p,
+a {
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+.jam-digital-malasngoding {
+  overflow: hidden;
+  width: 150px;
+  height: 50px;
+  margin: 20px auto;
+  border: 1px solid #000000;
+  float: left;
+}
+.kotak {
+  float: left;
+  width: 50px;
+  height: 45px;
+  background-color: #ffffff;
+}
+.jam-digital-malasngoding p {
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 15px;
 }
