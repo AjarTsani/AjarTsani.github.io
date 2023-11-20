@@ -8,7 +8,6 @@ img {
   height: auto;
   display: block;
   margin: 0 auto;
-  margin-top: 30px;
 }
 h1 {
   text-align: center;
@@ -138,6 +137,7 @@ a {
   margin: 20px auto;
   border: 1px solid #000000;
   float: left;
+  margin-left: 120px;
 }
 .kotak {
   float: left;
