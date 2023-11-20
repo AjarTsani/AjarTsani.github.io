@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="manifest" href="manifest.json" />
+
+    <title>aplikasi grosir</title>
+  </head>
+  <body>
+    <div class="box">
+      <img src="assets/images/shoping.png" alt="logo" />
+      <h1>Ajar Grosir</h1>
+
+      <label class="judul">Pilih barang apa yang dibeli</label>
+      <select name="jenis_barang" id="jenis_barang" class="form-select">
+        <option value="coca-cola">Coca-cola</option>
+        <option value="indomie">Indomie</option>
+        <option value="minola">Minola</option>
+        <option value="taro">Taro</option>
+        <option value="bengbeng">Bengbeng</option>
+      </select>
+      <input type="text" name="jumlah" placeholder="Berapa Duss" id="jumlah" class="form-control" />
+      <input type="button" onclick="addBarang()" value="Add" class="btn-add" />
+      <div>
+        <p style="text-align: center">Keranjang</p>
+        <table id="tabel" class="tabel"></table>
+      </div>
+      <p>
+        <b>Total Harga: <span id="total_bayar"></span></b>
+      </p>
+      <input type="button" onclick="Beli()" value="Bayar" class="btn-bayar" />
+    </div>
+    <div id="splash">
+      <img alt="" class="logo" src="assets/images/icon.png" />
+    </div>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/register.js"></script>
+    <script>
+      setTimeout(() => {
+        document.getElementById('splash').classList.toggle('fade');
+      }, 2000);
+    </script>
+  </body>
+</html>
