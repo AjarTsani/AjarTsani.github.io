@@ -68,81 +68,81 @@ function Beli() {
 }
 
 function cekTotalHarga(jenisBarang, jumlah) {
-  if (jenisBarang == 'coca-cola' && jumlah > 5) {
-    const total = jumlah * 100000;
-    const totalFinal = total - 100000;
+  if (jenisBarang == 'beras' && jumlah > 5) {
+    const total = jumlah * 15000;
+    const totalFinal = total - 15000;
 
     return {
       nama_Barang: jenisBarang,
       jumlah: jumlah,
       total: totalFinal,
     };
-  } else if (jenisBarang == 'coca-cola' && jumlah <= 5) {
-    const total = jumlah * 100000;
+  } else if (jenisBarang == 'beras' && jumlah <= 5) {
+    const total = jumlah * 15000;
     return {
       nama_Barang: jenisBarang,
       jumlah: jumlah,
       total: total,
     };
-  } else if (jenisBarang == 'indomie' && jumlah > 5) {
-    const total = jumlah * 100000;
-    const totalFinal = total - 100000;
+  } else if (jenisBarang == 'terigu' && jumlah > 5) {
+    const total = jumlah * 12000;
+    const totalFinal = total - 12000;
 
     return {
       nama_Barang: jenisBarang,
       jumlah: jumlah,
       total: totalFinal,
     };
-  } else if (jenisBarang == 'indomie' && jumlah <= 5) {
-    const total = jumlah * 100000;
+  } else if (jenisBarang == 'terigu' && jumlah <= 5) {
+    const total = jumlah * 12000;
     return {
       nama_Barang: jenisBarang,
       jumlah: jumlah,
       total: total,
     };
-  } else if (jenisBarang == 'minola' && jumlah > 5) {
-    const total = jumlah * 25000;
-    const totalFinal = total - 25000;
+  } else if (jenisBarang == 'gula' && jumlah > 5) {
+    const total = jumlah * 10000;
+    const totalFinal = total - 10000;
 
     return {
       nama_Barang: jenisBarang,
       jumlah: jumlah,
       total: totalFinal,
     };
-  } else if (jenisBarang == 'minola' && jumlah <= 5) {
-    const total = jumlah * 25000;
+  } else if (jenisBarang == 'gula' && jumlah <= 5) {
+    const total = jumlah * 10000;
     return {
       nama_Barang: jenisBarang,
       jumlah: jumlah,
       total: total,
     };
-  } else if (jenisBarang == 'taro' && jumlah > 5) {
-    const total = jumlah * 80000;
-    const totalFinal = total - 80000;
-
-    return {
-      nama_Barang: jenisBarang,
-      jumlah: jumlah,
-      total: totalFinal,
-    };
-  } else if (jenisBarang == 'taro' && jumlah <= 5) {
-    const total = jumlah * 80000;
-    return {
-      nama_Barang: jenisBarang,
-      jumlah: jumlah,
-      total: total,
-    };
-  } else if (jenisBarang == 'bengbeng' && jumlah > 5) {
-    const total = jumlah * 3000000;
-    const totalFinal = total - 300000;
-
-    return {
-      nama_Barang: jenisBarang,
-      jumlah: jumlah,
-      total: totalFinal,
-    };
-  } else if (jenisBarang == 'bengbeng' && jumlah <= 5) {
+  } else if (jenisBarang == 'telur' && jumlah > 5) {
     const total = jumlah * 30000;
+    const totalFinal = total - 30000;
+
+    return {
+      nama_Barang: jenisBarang,
+      jumlah: jumlah,
+      total: totalFinal,
+    };
+  } else if (jenisBarang == 'telur' && jumlah <= 5) {
+    const total = jumlah * 30000;
+    return {
+      nama_Barang: jenisBarang,
+      jumlah: jumlah,
+      total: total,
+    };
+  } else if (jenisBarang == 'minyak' && jumlah > 5) {
+    const total = jumlah * 20000;
+    const totalFinal = total - 20000;
+
+    return {
+      nama_Barang: jenisBarang,
+      jumlah: jumlah,
+      total: totalFinal,
+    };
+  } else if (jenisBarang == 'minyak' && jumlah <= 5) {
+    const total = jumlah * 20000;
     return {
       nama_Barang: jenisBarang,
       jumlah: jumlah,
